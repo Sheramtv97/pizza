@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Forum", sans-serif;
+}
+
+#header {
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+@keyframes ani {
+  0% {
+    transform: translateY(-400px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+#header .navbar--general__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  animation: ani 1s alternate;
+}
+#header .navbar--general__block a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#hero {
+  background: #181717;
+  padding-top: 100px;
+}
+#hero .hero--general__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero--general__title h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+#hero .hero--general div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#hero .hero--general div h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+#hero .hero--general div span {
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFA800;
+}
+#hero .hero--general__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#hero .hero--general__block--text {
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#hero .hero--general__block--text input {
+  width: 304px;
+  height: 20px;
+  border-bottom: 1px solid #FFA800;
+  background: #181717;
+  margin-right: 20px;
+  padding-left: 10px;
+  color: #FFFFFF;
+}
+#hero .hero--gen__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero--gen__title img {
+  position: absolute;
+  width: 70px;
+  height: 43px;
+  right: 514px;
+}
+#hero .hero--gen__title h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFA800;
+}
+#hero .hero--gen__inp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+}
+#hero .hero--gen__inp input {
+  width: 254px;
+  border-bottom: 1px solid #FFA800;
+  background: #181717;
+  color: #FFFFFF;
+  margin: 0 20px;
+  padding-left: 20px;
+}
+#hero .hero--gen__go {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero--gen__go h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFA800;
+}
+#hero .hero--gen__go img {
+  width: 50px;
+  height: 35px;
+}
+#hero .hero--gen__live {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+#hero .hero--gen__live h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+#hero .hero--gen__live--lin {
+  width: 150px;
+  height: 1px;
+  background: gold;
+}
+
+#bolt {
+  padding-top: 50px;
+  background: #181717;
+}
+#bolt .bolt--general__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 600px;
+}
+#bolt .bolt--general__title img {
+  position: absolute;
+  left: 110px;
+  top: -12px;
+  height: 43px;
+  width: 95px;
+}
+#bolt .bolt--general__title h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFA800;
+}
+#bolt .bolt--general__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+#bolt .bolt--general__block--but {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#bolt .bolt--general__block--but div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+#bolt .bolt--general__block--but a {
+  color: #FFA800;
+}
+#bolt .bolt--general__block--but p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+#bolt .bolt--general__block--but button {
+  width: 197px;
+  height: 41px;
+  background: #FFA800;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#bolt .bolt--general__block--but button:hover {
+  transform: scale(1.1);
+  background: #FFA800;
+}
+#bolt .bolt--general__block--goo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#bolt .bolt--general__block--goo button {
+  width: 197px;
+  height: 41px;
+  background: none;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#bolt .bolt--general__block--goo button:hover {
+  transform: scale(1.1);
+  background: #FFA800;
+}
+#bolt .bolt--general__block--goo div {
+  width: 348px;
+  height: 84px;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+#bolt .bolt--general__block--goo div h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #968C7A;
+  padding-left: 20px;
+}
+#bolt .bolt--general__work--tit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+#bolt .bolt--general__work--tit h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFA800;
+}
+#bolt .bolt--general__work--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+#bolt .bolt--general__work--block div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#bolt .bolt--general__work--block div button {
+  margin-top: 20px;
+  width: 197px;
+  height: 41px;
+  background: none;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#bolt .bolt--general__work--block div button:hover {
+  transform: scale(1.1);
+  background: gold;
+}
+#bolt .bolt--general__work--foo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bolt .bolt--general__work--foo button {
+  margin: 50px 0;
+  width: 197px;
+  height: 41px;
+  background: #FFA800;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#bolt .bolt--general__work--foo button a {
+  color: #FFFFFF;
+}
+#bolt .bolt--general__work--foo button:hover {
+  transform: scale(1.2);
+  background: #FFA800;
+}
+
+#footer {
+  background: black;
+  padding-top: 50px;
+}
+#footer .footer--general {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#footer .footer--general__icon a {
+  margin: 0 10px;
+  color: gold;
+  font-size: 30px;
+}
+#footer .footer--general__block a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 0 20px;
+}
+#footer .footer--gen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#footer .footer--gen__fo h1 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFA800;
+  padding: 10px 0;
+}
+#footer .footer--gen__fo h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFA800;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=dom.css.map */

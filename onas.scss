@@ -1,0 +1,177 @@
+@import "reset";
+
+#header {
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  .navbar--general {
+    @keyframes ani {
+      0% {
+        transform: translateY(-400px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    &__block {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      animation: ani 1s alternate;
+
+
+      a {
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+
+      }
+    }
+  }
+
+}
+
+#hero{
+  background: #000;
+  padding-bottom: 100px;
+
+  .hero--general{
+    padding-top: 100px;
+    &__title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+      img {
+        position: absolute;
+        right: 369px;
+        top: 137px;
+      }
+
+      h1 {
+        font-weight: 400;
+        font-size: 48px;
+        color: #FFFFFF;
+      }
+    }
+
+
+
+    &__block{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 0;
+
+      div{
+      padding-right: 30px;
+      }
+      &--text{
+
+        img {
+          padding: 10px 0;
+        }
+
+        h1{
+          font-weight: 400;
+          font-size: 24px;
+          color: #FFA800;
+
+        }
+
+        &__one{
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          p{
+            font-weight: 400;
+            font-size: 18px;
+            color: #968C7A;
+            padding: 15px 20px 0 5px ;
+
+          }
+        }
+
+        p{
+          font-weight: 400;
+          font-size: 18px;
+          color: #FFFFFF;
+        }
+
+        &--like{
+          display: flex;
+          align-items: center;
+        }
+
+      }
+
+
+    }
+
+  }
+
+}
+
+#footer{
+  background: black;
+  padding-top: 20px;
+  .footer--general{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &__icon{
+      a{
+        margin: 0 10px;
+        color: gold;
+        font-size: 30px;
+
+      }
+
+    }
+    &__block {
+
+      a{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #FFFFFF;
+        padding: 0 20px;
+      }
+    }
+
+
+
+  }
+
+  .footer--gen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+    &__fo{
+      h1 {
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFA800;
+        padding:10px 0 ;
+      }
+
+      h2{
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFA800;
+
+      }
+
+
+    }
+
+
+  }
+}

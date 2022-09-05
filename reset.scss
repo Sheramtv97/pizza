@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Forum',sans-serif;
+}
+
+@mixin green {
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  width: 270px;
+  height: 60px;
+  border: 3px solid #FFA800;
+  border-radius: 57px;
+  transition: .4s;
+  background: none;
+}
+
+@mixin bor{
+  width: 308px;
+  height: 40px;
+  background: #FFA800;
+  border: 3px solid #FFA800;
+  border-radius: 4px;
+  transition: .4s;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.025em;
+  color: #FFFFFF;
+}
+
+@mixin lev{
+  width: 261.8px;
+  height: 52px;
+  background: #FFA800;
+  border: 3px solid #FFA800;
+  border-radius: 47px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  transition: .4s;
+}
+
+@mixin button {
+  width: 197px;
+  height: 41px;
+  background: #FFA800;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: .4s;
+}
+
+@mixin but {
+  width: 197px;
+  height: 41px;
+  background: none;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: .4s;
+
+}
+
+@mixin yel {
+  width: 717px;
+  height: 66px;
+  background: #968C7A;
+  border-radius: 7px;
+  transition: .4s;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  border: none;
+}

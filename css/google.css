@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Forum", sans-serif;
+}
+
+#header {
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+@keyframes ani {
+  0% {
+    transform: translateY(-400px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+#header .navbar--general__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  animation: ani 1s alternate;
+}
+#header .navbar--general__block a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#hero {
+  background: #181717;
+  padding-top: 100px;
+}
+#hero .hero--general {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#hero .hero--general__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+#hero .hero--general__title h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+#hero .hero--general__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 770px;
+  height: 280px;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+}
+#hero .hero--general__block h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  text-align: center;
+  color: #FFA800;
+}
+#hero .hero--general__block p {
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+#hero .hero--general__butt button {
+  margin: 40px 0;
+  width: 197px;
+  height: 41px;
+  background: #FFA800;
+  border: 1px solid #FFA800;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+#hero .hero--general__butt button a {
+  color: #FFFFFF;
+}
+#hero .hero--general__butt button:hover {
+  transform: scale(1.3);
+  background: gold;
+}
+
+#footer {
+  background: black;
+  padding-top: 50px;
+}
+#footer .footer--general {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#footer .footer--general__icon a {
+  margin: 0 10px;
+  color: gold;
+  font-size: 30px;
+}
+#footer .footer--general__block a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 0 20px;
+}
+#footer .footer--gen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#footer .footer--gen__fo h1 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFA800;
+  padding: 10px 0;
+}
+#footer .footer--gen__fo h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFA800;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=google.css.map */

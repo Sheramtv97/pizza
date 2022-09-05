@@ -1,0 +1,43 @@
+/*# sourceMappingURL=reset.css.map */
+#header {
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+@keyframes ani {
+  0% {
+    transform: translateY(-400px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+#header .navbar--general__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  animation: ani 1s alternate;
+}
+#header .navbar--general__block a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#hero {
+  background: #181717;
+  padding-top: 100px;
+}
+#hero .hero--general__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero--general__title h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=zakaz.css.map */
